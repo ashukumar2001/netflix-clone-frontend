@@ -1,0 +1,26 @@
+.nav {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  padding: 20px 0;
+  height: 20px;
+  justify-content: space-between;
+  transition: all 500ms ease-in-out;
+}
+.nav__logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+}
+.nav__avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+}
+.nav--black {
+  background-color: rgba(0, 0, 0, 0.932);
+}
